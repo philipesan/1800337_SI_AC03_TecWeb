@@ -1,0 +1,44 @@
+h1.artigo{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th.titulo {
+    background-color: #4CAF50;
+    color: white;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+ol {
+    background: #1c8ab6;
+    list-style-type: upper-roman;
+    padding: 20px;
+}
+
+ol li {
+    background: #1868c4;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+input[type=text]:focus {
+    background-color: lightgray;
+}
+
+input[type=number]:focus {
+    background-color: lightgray;
+}
+
+input[type=email]:focus {
+    background-color: lightgray;
+}
